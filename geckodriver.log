@@ -1,0 +1,134 @@
+1612582060560	geckodriver	INFO	Listening on 127.0.0.1:57280
+1612582063613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofilegpBrL5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612582066147	Marionette	INFO	Listening on port 57290
+1612582066248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612582066267	Marionette	ERROR	[15] No reply from Marionette:Register
+1612582067466	Marionette	INFO	Stopped listening on port 57290
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612582068190	geckodriver	INFO	Listening on 127.0.0.1:57332
+1612582071251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofileqQljKO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612582073447	Marionette	INFO	Listening on port 57340
+1612582073897	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612582073909	Marionette	ERROR	[18] No reply from Marionette:Register
+1612582077314	Marionette	INFO	Stopped listening on port 57340
+1612590245028	geckodriver	INFO	Listening on 127.0.0.1:52233
+1612590248074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofileMtuKjP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590250112	Marionette	INFO	Listening on port 52241
+1612590250201	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590250216	Marionette	ERROR	[15] No reply from Marionette:Register
+1612590255085	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:77295
+s.ajax@https://admin-demo.nopcommerce.com/lib/jquery-migrate/jquery-migrate-3.1.0.min.js:2:3154
+init@https://admin-demo.nopcommerce.com/js/admin.navigation.js:56:11
+initOnce@https://admin-demo.nopcommerce.com/js/admin.navigation.js:90:17
+init@https://admin-demo.nopcommerce.com/js/admin.search.js:72:30
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:148:46
+e@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29453
+l/</t<@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29755
+1612590320032	Marionette	INFO	Stopped listening on port 52241
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612590324151	geckodriver	INFO	Listening on 127.0.0.1:52380
+1612590327202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofileoDjCI5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590329537	Marionette	INFO	Listening on port 52389
+1612590329822	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590329833	Marionette	ERROR	[15] No reply from Marionette:Register
+1612590464768	Marionette	INFO	Stopped listening on port 52389
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofileOCzuTR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590383986	Marionette	INFO	Listening on port 52477
+1612590384099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590384114	Marionette	ERROR	[15] No reply from Marionette:Register
+1612590388855	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:77295
+s.ajax@https://admin-demo.nopcommerce.com/lib/jquery-migrate/jquery-migrate-3.1.0.min.js:2:3154
+init@https://admin-demo.nopcommerce.com/js/admin.navigation.js:56:11
+initOnce@https://admin-demo.nopcommerce.com/js/admin.navigation.js:90:17
+init@https://admin-demo.nopcommerce.com/js/admin.search.js:72:30
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:148:46
+e@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29453
+l/</t<@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29755
+1612590450224	Marionette	INFO	Stopped listening on port 52471612590450857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofilecdrGsw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612590453431	Marionette	INFO	Listening on port 52591
+1612590453492	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612590453504	Marionette	ERROR	[18] No reply from Marionette:Register
+1612590463941	Marionette	INFO	Stopped listening on port 52591
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612829720509	geckodriver	INFO	Listening on 127.0.0.1:61416
+1612829723556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofile6l6o8D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612829726566	Marionette	INFO	Listening on port 61424
+1612829726693	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612829726708	Marionette	ERROR	[15] No reply from Marionette:Register
+1612829731059	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:77295
+s.ajax@https://admin-demo.nopcommerce.com/lib/jquery-migrate/jquery-migrate-3.1.0.min.js:2:3154
+init@https://admin-demo.nopcommerce.com/js/admin.navigation.js:56:11
+initOnce@https://admin-demo.nopcommerce.com/js/admin.navigation.js:90:17
+init@https://admin-demo.nopcommerce.com/js/admin.search.js:72:30
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:148:46
+e@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29453
+l/</t<@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29755
+1612829900016	Marionette	INFO	Stopped listening on port 61424
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Dibs\\AppData\\Local\\Temp\\rust_mozprofilezTvf0L"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612829748126	Marionette	INFO	Listening on port 61506
+1612829748210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612829748224	Marionette	ERROR	[15] No reply from Marionette:Register
+1612829752305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:77295
+s.ajax@https://admin-demo.nopcommerce.com/lib/jquery-migrate/jquery-migrate-3.1.0.min.js:2:3154
+init@https://admin-demo.nopcommerce.com/js/admin.navigation.js:56:11
+initOnce@https://admin-demo.nopcommerce.com/js/admin.navigation.js:90:17
+init@https://admin-demo.nopcommerce.com/js/admin.search.js:72:30
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:148:46
+e@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29453
+l/</t<@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29755
+1612829775277	Marionette	INFO	Stopped listening on port 61506
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
