@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Dibs\Desktop\nopCommerceProject\venv"
+VIRTUAL_ENV="C:\Users\Dibs\Desktop\dibs_ui_automation_project\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
