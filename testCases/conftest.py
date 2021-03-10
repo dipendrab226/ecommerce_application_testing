@@ -4,12 +4,25 @@ from selenium import webdriver
 
 @pytest.fixture()
 def setup(browser):
-    if browser == 'chrome':
-        driver = webdriver.Chrome(executable_path='C:\\Users\\Dibs\\Desktop\\chromedriver_win32\\chromedriver.exe')
-        print("Launching chrome browser.........")
-    elif browser == 'firefox':
-        driver = webdriver.Firefox(executable_path='C:\\Users\\Dibs\\Desktop\\geckodriver-v0.29.0-win64\\geckodriver.exe')
-        print("Launching firefox browser.........")
+    # BROWSERSTACK_URL = 'https://dipendrabharati1:NNDPfsfz7FrZX5LJkPae@hub-cloud.browserstack.com/wd/hub'
+    # desired_cap = {
+    #     'os': 'Windows',
+    #     'os_version': '10',
+    #     'browser': browser,
+    #     'browser_version': '80',
+    #     'name': "dipendrabharati1's First Test"
+    # }
+    # driver = webdriver.Remote(command_executor=BROWSERSTACK_URL, desired_capabilities=desired_cap)
+    driver = webdriver.Chrome(executable_path='C:\\Users\\Dibs\\Desktop\\chromedriver_win32\\chromedriver.exe')
+
+    # if browser == 'chrome':
+    #
+    #     driver = webdriver.Chrome(executable_path='C:\\Users\\Dibs\\Desktop\\chromedriver_win32\\chromedriver.exe')
+    #     print("Launching chrome browser.........")
+    # elif browser == 'firefox':
+    #     driver = webdriver.Firefox(executable_path='C:\\Users\\Dibs\\Desktop\\geckodriver-v0.29.0-win64\\geckodriver.exe')
+    #     print("Launching firefox browser.........")
+
     return driver
 
 

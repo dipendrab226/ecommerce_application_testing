@@ -11,7 +11,6 @@ class Test_002_DDT_Login():
     path = ".//TestData/LoginData.xlsx"
     logger = LogGen.loggen()  # Logger
 
-    @pytest.mark.skip
     @pytest.mark.regression
     def test_login_ddt(self, setup):
         self.logger.info("******* Starting Test_002_DDT_Login Test **********")

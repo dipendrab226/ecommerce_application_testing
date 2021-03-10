@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from pageObjects.LoginPage import LoginPage
@@ -41,6 +43,7 @@ class Test_001_Login:
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         self.lp.clickLogin()
+        time.sleep(2)
         act_title = self.driver.title
         if act_title == "Dashboard / nopCommerce administration":
             self.logger.info("****Login test passed ****")

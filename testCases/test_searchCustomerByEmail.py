@@ -12,7 +12,7 @@ class Test_SearchCustomerByEmail_004:
     username = ReadConfig.getUseremail()
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()  # Logger
-    @pytest.mark.skip
+
     @pytest.mark.regression
     def test_searchCustomerByEmail(self,setup):
         self.logger.info("************* SearchCustomerByEmail_004 **********")

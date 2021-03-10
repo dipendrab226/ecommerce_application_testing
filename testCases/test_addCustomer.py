@@ -14,9 +14,10 @@ class Test_003_AddCustomer:
     logger = LogGen.loggen()  # Logger
 
     @pytest.mark.regression
-    def test_addCustomer(self,setup):
+    def test_addCustomer(self, setup):
         self.logger.info("************* Test_003_AddCustomer **********")
         self.driver=setup
+        self.driver.implicitly_wait(10)
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
 
@@ -29,10 +30,11 @@ class Test_003_AddCustomer:
         self.logger.info("******* Starting Add Customer Test **********")
 
         self.addcust = AddCustomer(self.driver)
+        time.sleep(1)
         self.addcust.clickOnCustomersMenu()
         time.sleep(1)
         self.addcust.clickOnCustomersMenuItem()
-
+        time.sleep(10)
         self.addcust.clickOnAddnew()
 
         self.logger.info("************* Providing customer info **********")
