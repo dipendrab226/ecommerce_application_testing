@@ -9,7 +9,7 @@ def setup(browser):
         'os': 'Windows',
         'os_version': '10',
         'browser': browser,
-        'browser_version': '80',
+        'browser_version': '89',
         'name': "dipendrabharati1's First Test"
     }
     driver = webdriver.Remote(command_executor=BROWSERSTACK_URL, desired_capabilities=desired_cap)

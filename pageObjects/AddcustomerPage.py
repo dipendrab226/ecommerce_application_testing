@@ -9,7 +9,8 @@ class AddCustomer:
     lnkCustomers_menu_xpath = '/html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]'
     # lnkCustomers_menuitem_xpath = "//a[@class='menu-item-link']//span[@class='menu-item-title'][contains(text(),'Customers')]"
     # lnkCustomers_menuitem_class_name= "nav-item"
-    lnkCustomers_menuitem_xpath = '/html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/ul/li[1]/a'
+    # lnkCustomers_menuitem_xpath = '/html/body/div[3]/aside/div/div[4]/div/div/nav/ul/li[4]/ul/li[1]/a'
+    lnkCustomers_menuitem_xpath = '//li[contains(text(),"Customers")]'
     btnAddnew_xpath = "//a[@href='/Admin/Customer/Create']"
     txtEmail_xpath = "//input[@id='Email']"
     txtPassword_xpath = "//input[@id='Password']"
